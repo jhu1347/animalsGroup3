@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <style>
+        body {
+            background-color: rgb(205, 255, 190);
+        }
+        h1 {
+            background-color: rgb(13, 0, 130);
+            color:rgb(189, 237, 255);
+            text-align: center;
+            font-size: 50px;
+            margin-top: 5px;
+            font-family: chalkduster;
+            border: yellow 10px dotted;
+            
+        }
+        .animalColor1 {
+            background-color: rgb(199, 0, 169);
+
+        }
+        .animalColor2 {
+            background-color: rebeccapurple;
+        }
+        .list1 {
+            color: saddlebrown;
+        }
+        #special {
+            font-size: 20px;
+            font-family: cursive;
+            color: darkorchid;
+        }
+        #firstTable {
+            background-color: cadetblue;
+            position: relative;
+            left: 30px;
+            bottom: 10px;
+        }
+        #firstHead {
+            background-color:coral;
+        }
+        #firstBody {
+            background-color: crimson;
+        }
+        #bootifulWord {
+            color: rgb(255, 0, 119);
+        }
+        #mainBody {
+            background-color: rgba(225, 225, 225, 0.856);
+            height: 700px;
+            width: 400px;
+            overflow-y: auto;
+            position: relative;
+            left: 25px;
+        }
+        .animalImg {
+            position: relative;
+            left: 85px;
+        }
+        .TOC {
+            position: relative;
+            left: 20px;
+        }
+        #dogStuff {
+            position: relative;
+            width: 175px;
+            float: left;
+        }
+        #dogPara {
+            position: relative;
+            margin-left: 20px;
+        }
+        .fontFirstFourAnis {
+            font-family: monospace;
+            font-size: 25px;
+        }
+        h2.fontFirstFourAnis {
+            color:yellow;
+        }
+        ul.TOC li em {
+            color:rgb(13, 0, 130);
+            line-height: 32px;
+        }
+        a:hover {
+            color:rgb(255, 0, 119);
+        }
+        a:active {
+            color: orangered;
+        }
+        button {
+            background-color: lawngreen;
+            font-size: 30px;
+            font-family: chalkduster;
+        }
+        #code {
+            background-color: grey;
+        }
+        .pigSent {
+            color:rgb(255, 0, 119);
+        }
+        .cowSent {
+            font-family: cursive;
+        }
+        marquee {
+            background-color: darkolivegreen;
+            color:rgb(243, 255, 17);
+            font-family: arial;
+            font-size: 25px;
+        }
+        #code {
+            background-color: gray;
+            color: white;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        LINKS: anything that brings you from one webpage to another page
+            1/ External Links
+            2/ Internal Links
+    
+    -->
+
+    <!--
+
+        DECENDANT SELECTORS!!!!!
+
+        main purpose: be more specific when selecting and styling elements
+
+        IMPORTANT: everything must stay the same, copy paste
+
+    -->
+
+    <!--
+
+        PSUDEO ELEMENTS!!!!!!!
+
+        main purpose: informally style with css, esp LINKS!!!
+
+    -->
+
+    <!--
+
+        <header>, <footer>, <nav>, <code>, <button>, <marquee>
+
+    -->
+
+    <!--
+
+        Inline CSS:
+        CSS but not written in the <style> tag, written in HTML tags in the HTML section
+
+        CSS POSITION (ABSOLUTE VS RELATIVE)
+
+    -->
+
+    <marquee>Welcome to the most epic animals webpage ever :) Donate today :) Today is Februrary 12th, 2022, it is a Saturday :) Have a great day!</marquee>
+
+    <h1>The Animals On Planet Earth</h1>
+
+    <button>Click Me!</button>
+
+    <h2 style = "color:red; font-family: chalkduster; background-color: yellow;">Welcome to my webpage, hope you enjoy!</h2>
+
+    <p id = "special">Welcome to this <span id="bootifulWord">bootiful</span> animals webpage! Made by Jacob Enjoy! :)</p>
+
+    <div id = "code">
+        <code>
+            int hello = 1;
+            <br>
+            System.out.println("Hello World " + hello + "!");
+        </code>
+    </div>
+
+    <h3 class="TOC">Table Of Contents:</h3>
+
+    <ul class="TOC">
+        <li><em>Cats</em></li>
+        <li><em>Dogs</em></li>
+        <li><em>Pigs</em></li>
+        <li><em>Cows</em></li>
+        <li><em>Rabbits</em></li>
+        <li><em>Chickens</em></li>
+        <li><em>Butterflies</em></li>
+        <li><em>Dolphins</em></li>
+        <li><em>Sharks</em></li>
+    </ul>
+
+    <table id="firstTable">
+        <thead id="firstHead">
+            <tr>
+                <th>Animals</th>
+                <th>Colors</th>
+                <th>Where Originated</th>
+            </tr>
+        </thead>
+        <tbody id="firstBody">
+            <tr>
+                <td>Cats</td>
+                <td>Orange, Grey...</td>
+                <td>North America</td>
+            </tr>
+            <tr>
+                <td>Dogs</td>
+                <td>Brown, Gold...</td>
+                <td>Southeast Asia</td>
+            </tr>
+            <tr>
+                <td>Pigs</td>
+                <td>Pink, black...</td>
+                <td>Europe</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="mainBody">
+
+    <h2 id = "CatsInternal"  class = "animalColor1 fontFirstFourAnis">Cats</h2>
+
+    <img class = "animalImg" src = "https://cdn.fotofits.com/petzlover/gallery/img/l/farm-cat-876412.jpeg" alt = "cat" width = "200">
+
+    <ul>
+        <li class = "list1">Fact #1</li>
+        <li>Fact #2</li>
+        <li class = "list1">Fact #3</li>
+    </ul>
+
+    <p>Cat, (Felis catus), also called house cat or domestic cat, domesticated member of the 
+    family Felidae, order Carnivora, and the smallest member of that family. Like all felids, 
+    domestic cats are characterized by supple low-slung bodies, finely molded heads, long tails 
+    that aid in balance, and specialized teeth and claws that adapt them admirably to a life of 
+    active hunting. Cats possess other features of their wild relatives in being basically 
+    carnivorous, remarkably agile and powerful, and finely coordinated in movement.</p>
+
+    <h2 class = "animalColor2 fontFirstFourAnis">Dogs</h2>
+    
+    <ul>
+        <li class = "list1">Fact #1</li>
+        <li>Fact #2</li>
+        <li class = "list1">Fact #3</li>
+    </ul>
+
+    <img id="dogStuff" src = "https://bigfluffydogs.com/wp-content/uploads/2020/08/Saki-2.jpg" alt = "cat" width = "200">
+
+    <p id = "dogPara">Dogs are regarded differently in different parts of the world. Characteristics of loyalty, 
+    friendship, protectiveness, and affection have earned dogs an important position in 
+    Western society, and in the United States and Europe the care and feeding of dogs has become a 
+    multibillion-dollar business. Western civilization has given the relationship between human 
+    and dog great importance, but, in some of the developing nations and in many areas of Asia, 
+    dogs are not held in the same esteem. In some areas of the world, dogs are used as guards or 
+    beasts of burden or even for food, whereas in the United States and Europe dogs are protected 
+    and admired. In ancient Egypt during the days of the pharaohs, dogs were considered to be 
+    sacred.</p>
+
+    <h2 class = "animalColor1 fontFirstFourAnis">Pigs</h2>
+
+    <ul>
+        <li class = "list1">Fact #1</li>
+        <li>Fact #2</li>
+        <li class = "list1">Fact #3</li>
+    </ul>
+
+    <img src = "https://www.pig333.com/3tres3_common/art/pig333/15343/hypor-magnus_150249.jpg" alt = "cat" width = "200">
+
+    <p id = "pigPara"><span class = "pigSent cowSent">Many people who know pigs compare them to dogs because</span> they are friendly, loyal and 
+    intelligent. Pigs are naturally very clean and avoid, if at all possible, soiling their 
+    living areas. When given the chance to live away from factory farms, pigs will spend hours 
+    playing, lying in the sun and exploring their surroundings with their powerful sense of smell. 
+    Pigs are very clever animals. The pig was domesticated approximately 5,000 to 7,000 years ago. 
+    Pigs are found across Europe, the Middle East and extend into Asia as far as Indonesia and 
+    Japan. Pigs are one of the oldest forms of livestock, pigs were domesticated earlier than cows. 
+    Nowadays, pigs are farmed for their meet called ‘pork’, although some keep them as pets.</p>
+
+    <h2 class = "animalColor2 fontFirstFourAnis">Cows</h2>
+
+    <ul>
+        <li class = "list1">Fact #1</li>
+        <li>Fact #2</li>
+        <li class = "list1">Fact #3</li>
+    </ul>
+
+    <img src = "https://jooinn.com/images/a-friesian-cow.jpg" alt = "cat" width = "200">
+
+    <p id = "cowPara"><span class = "cowSent">Cow, in common parlance, a domestic bovine, regardless</span> of sex and age, usually of the 
+    species Bos taurus. In precise usage, the name is given to mature females of several large 
+    mammals, including cattle (bovines), moose, elephants, sea lions, and whales. Domestic cows 
+    are one of the most common farm animals around the world, and the English language has several 
+    words to describe these animals at various ages. A baby cow is called a calf. A female calf 
+    is sometimes called a heifer calf and a male a bull calf. A heifer is a female that has not 
+    had any offspring. The term usually refers to immature females; after giving birth to her 
+    first calf, however, a heifer becomes a cow. An adult male is known as a bull. Many male 
+    cattle are castrated to reduce their aggressive tendencies and make them more tractable. Young 
+    neutered males, which are primarily raised for beef, are called steers or bullocks, whereas 
+    adult neutered males, which are usually used for draft purposes, are known as oxen. A group of 
+    cows, cattle, or kine (an archaic term for more than one cow) constitutes a herd. English lacks 
+    a gender-neutral singular form, and so “cow” is used for both female individuals and all 
+    domestic bovines.</p>
+
+    <h2 class = "animalColor1">Rabbits</h2>
+
+    <ul>
+        <li class = "list1">Fact #1</li>
+        <li>Fact #2</li>
+        <li class = "list1">Fact #3</li>
+    </ul>
+
+    <img src = "https://jooinn.com/images/european-rabbit-5.jpg" alt = "cat" width = "200">
+
+    <p>Rabbits are ground dwellers that live in environments ranging from 
+    desert to tropical forest and wetland. Their natural geographic range in the 
+    Western Hemisphere encompasses the middle latitudes. In the Eastern Hemisphere rabbits 
+    are found in Europe, portions of Central and Southern Africa, the Indian subcontinent, 
+    Sumatra, and Japan. The European rabbit (Oryctolagus cuniculus) has been introduced 
+    to many locations around the world, and all breeds of domestic rabbit originate from 
+    the European. Nearly half of the world’s rabbit species are in danger of extinction; 
+    many are among the most vulnerable of all mammals.</p>
+
+    <h2 class = "animalColor2">Chickens</h2>
+
+    <ul>
+        <li class = "list1">Fact #1</li>
+        <li>Fact #2</li>
+        <li class = "list1">Fact #3</li>
+    </ul>
+
+    <img src = "https://cdn.britannica.com/s:700x500/07/183407-050-C35648B5/Chicken.jpg" alt = "cat" width = "200">
+
+    <p>Chickens (Gallus domesticus) are domestic birds that cannot fly. There are over 150 
+    different breeds of chicken that come in various colours, patterns and sizes. The chicken 
+    is believed to have descended from the wild Indian and south-east Asian Red Junglefowl 
+    which is biologically classified as the same species. With a population of more than 24 
+    billion in 2003, there are more chickens in the world than any other bird. Chickens provide 
+    two sources of food frequently consumed by humans: their meat, also known as chicken, and eggs 
+    which they lay. Chickens have a great usefulness to humans. Chickens can be kept as pets, for 
+    breeding, egg laying and a food product. There are many different breeds that come in a variety 
+    of colours.</p>
+
+    <h2 class = "animalColor1">Butterflies</h2>
+
+    <ul>
+        <li class = "list1">Fact #1</li>
+        <li>Fact #2</li>
+        <li class = "list1">Fact #3</li>
+    </ul>
+
+    <img src = "https://www.worldatlas.com/r/w2000-h1125-q90/upload/3a/b8/9d/monarch-4689681-1280.jpg" alt = "cat" width = "200">
+
+    <p>Numbers of species. Due to their bright colors and visits to flowers, butterflies are the 
+    most familiar of insects to humans. There are about 17,500 species of butterflies in the world, 
+    and around 750 species in the United States. Distinctive characteristics. Butterflies 
+    (and moths) are the only group of insects that have scales covering their wings, although some 
+    butterflies have reduced scales. They differ from other insects also by their ability to coil 
+    up their proboscis.Vision. The vision of butterflies appears to be excellent, especially within 
+    short distances. They are able to fly with precision in areas of many obstacles. Mating 
+    Behavior. Females are usually able to engage in mating on the day of emergence, but males do 
+    not normally mate for several days. Courtship rituals vary widely among species.</p>
+
+    <h2 class = "animalColor2">Dolphins</h2>
+
+    <ul>
+        <li class = "list1">Fact #1</li>
+        <li>Fact #2</li>
+        <li class = "list1">Fact #3</li>
+    </ul>
+
+    <img src = "https://www.wallpapergeeks.com/wp-content/uploads/2014/02/bottlenose-dolphins-jumping-wallpaper-1024x761.jpg" alt = "cat" width = "200">
+
+    <p>dolphin, any of the toothed whales belonging to the mammal family Delphinidae 
+    (oceanic dolphins) as well as the families Platanistidae and Iniidae, the two that contain 
+    the river dolphins. Of the nearly 40 species of dolphins in the Delphinidae, 6 are commonly 
+    called whales, including the killer whale and the pilot whales. The name dolphin is also applied 
+    to members of the fish genus Coryphaena (family Coryphaenidae). Most dolphins are small, 
+    measuring less than 3 metres (10 feet) in length, and have spindle-shaped bodies, beaklike 
+    snouts (rostrums), and simple needlelike teeth. Some of these cetaceans are occasionally called 
+    porpoises, but scientists prefer to use this term as the common name for the six species in the 
+    family Phocoenidae, all of which differ from dolphins in having blunt snouts and spade like 
+    teeth.</p>
+
+    <h2 id = "sharksInternal" class = "animalColor1">Sharks</h2>
+
+    <ul>
+        <li class = "list1">Fact #1</li>
+        <li>Fact #2</li>
+        <li class = "list1">Fact #3</li>
+    </ul>
+    
+    <img src = "https://i2.wp.com/nypost.com/wp-content/uploads/sites/2/2019/05/shark-attack.jpg?quality=90&strip=all&ssl=1" alt = "cat" width = "200">
+
+    <p>Sharks, together with rays and skates, make up the subclass Elasmobranchii of the 
+    Chondrichthyes. Sharks differ from other elasmobranchs, however, and resemble ordinary 
+    fishes, in the fusiform shape of their body and in the location of their gill clefts on 
+    each side of the head. Though there are exceptions, sharks typically have a tough skin 
+    that is dull gray in colour and is roughened by toothlike scales. They also usually have a 
+    muscular, asymmetrical, upturned tail; pointed fins; and a pointed snout extending forward and 
+    over a crescentic mouth set with sharp triangular teeth. Sharks have no swim bladder and must 
+    swim perpetually to keep from sinking to the bottom.</p>
+
+    </div>
+
+    <h4>Citations:</h4>
+    
+    <a id = "example" target="_blank" href="https://www.britannica.com/animal/cat">Cats are the best animals ever!</a>
+
+    <ul>
+        <li><a target="_blank" href="https://www.britannica.com/animal/cat">Webpage about cats</a></li>
+        <li><a target="_blank" href="https://www.britannica.com/animal/dog">Webpage about dogs</a></li>
+        <li></li>
+    </ul>
+
+    <footer>&copy; The Animals Webpage 2022</footer>
+</body>
+</html>
